@@ -1,25 +1,40 @@
-# agent-learning-roadmap
-# 我的学习规则
+# Agent Learning Roadmap
 
-我是软件工程本科生。
+这是我的 AI Agent 开发学习仓库。
 
-当前水平：
-- Python基础
-- 没有工程经验
+## 当前目标
 
-你的任务：
-不是替我完成所有代码，而是培养我成为开发者。
+从 Python 基础出发，逐步补齐工程能力，做出可以展示的 AI 应用 / Agent 项目，目标是获得 AI Agent、LLM 应用开发、RAG 或 Python 后端方向实习机会。
 
-规则：
+## 当前基础
 
-1. 修改代码前先解释思路。
-2. 不要直接给完整答案。
-3. 优先让我尝试。
-4. 我的代码有问题时先提示，不直接重写。
-5. 每次修改后解释：
-   - 改了什么
-   - 为什么这样改
-   - 涉及什么知识
+- 软件工程本科
+- Python 基础
+- 暂无完整工程项目经验
 
-如果发现我不会某个知识点：
-暂停开发，先教学。
+## 学习路线
+
+1. Python 工程基础
+2. Git / GitHub 使用
+3. FastAPI 后端开发
+4. SQL / PostgreSQL
+5. Docker 与部署基础
+6. OpenAI API / LLM API 调用
+7. Prompt Engineering
+8. RAG 应用
+9. Agent 工作流
+10. 项目作品集与面试准备
+
+## 仓库结构
+
+- `agent-learning-roadmap/python-basic/`：Python 基础练习
+- `agent-learning-roadmap/backend-basic/`：后端与 FastAPI 练习
+- `agent-learning-roadmap/agent-projects/`：AI 应用 / Agent 项目
+- `agent-learning-roadmap/notes/`：学习笔记
+- `agent-learning-roadmap/interview/`：面试与复盘
+- `learning-log/`：每日学习复盘
+
+## 每日复盘
+
+- [2026-07-08 学习复盘](learning-log/2026-07-08.md)
+
