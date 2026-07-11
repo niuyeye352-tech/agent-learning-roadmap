@@ -1,40 +1,57 @@
 # Agent Learning Roadmap
 
-这是我的 AI Agent 开发学习仓库。
+这是我的 AI 应用与 Agent 开发学习仓库，用于记录学习路线、阶段复盘、代码练习和项目成果。
 
-## 当前目标
+## 当前定位
 
-从 Python 基础出发，逐步补齐工程能力，做出可以展示的 AI 应用 / Agent 项目，目标是获得 AI Agent、LLM 应用开发、RAG 或 Python 后端方向实习机会。
+- 软件工程本科，2026 年秋季进入大三，通常对应 2028 届。
+- 主投 Python 后端、AI 应用开发、知识库 / RAG、Agent 应用、自动化工具和测试开发岗位。
+- 目标是在 2027 年暑假前后获得第一段真实、相关、可写进简历的开发实习。
+- 当前处于第一阶段：补齐 Python 工程基础、Git / Linux 和必要的数据结构能力。
 
-## 当前基础
+## 学习主线
 
-- 软件工程本科
-- Python 基础
-- 暂无完整工程项目经验
+> Python 后端基础 -> 数据结构与算法 -> 完整后端项目 -> RAG -> Agent -> 部署与实习面试
 
-## 学习路线
+1. Python 进阶与工程基础
+2. Git、GitHub 与 Linux 基础
+3. 必要的数据结构与算法
+4. SQL、PostgreSQL、FastAPI 与后端工程化
+5. LLM API 与大模型应用基础
+6. RAG 系统开发
+7. LangGraph Agent 工作流
+8. 部署、作品集与实习面试
 
-1. Python 工程基础
-2. Git / GitHub 使用
-3. FastAPI 后端开发
-4. SQL / PostgreSQL
-5. Docker 与部署基础
-6. OpenAI API / LLM API 调用
-7. Prompt Engineering
-8. RAG 应用
-9. Agent 工作流
-10. 项目作品集与面试准备
+学习顺序以工程能力为主，不跳过后端直接追 Agent；先完成可用的 RAG 项目，再系统学习 Agent。
+
+## 连续项目路线
+
+1. 项目零：Python 命令行小项目，验收模块化、文件处理、外部 API、异常、日志与测试。
+2. 项目一：用户管理和资料管理后端，逐步加入 PostgreSQL、JWT、权限、Redis、测试和部署。
+3. 项目二：带权限、引用、历史记录和日志的知识库 RAG 系统。
+4. 项目三：在 RAG 系统上加入工具调用、状态管理、人工确认和失败恢复，升级为 Agent 应用。
+
+## 当前里程碑
+
+- [x] 明确求职方向与时间目标
+- [x] 确定完整学习顺序和项目路线
+- [x] 建立学习复盘与进度跟踪方式
+- [ ] 完成 Python 进阶能力盘点
+- [ ] 确定并启动项目零
+- [ ] 产出第一个可运行、可测试的代码项目
 
 ## 仓库结构
 
-- `agent-learning-roadmap/python-basic/`：Python 基础练习
-- `agent-learning-roadmap/backend-basic/`：后端与 FastAPI 练习
-- `agent-learning-roadmap/agent-projects/`：AI 应用 / Agent 项目
-- `agent-learning-roadmap/notes/`：学习笔记
-- `agent-learning-roadmap/interview/`：面试与复盘
-- `learning-log/`：每日学习复盘
+- `README.md`：学习路线与仓库入口
+- `AGENTS.md`：教学、练习和代码审查规则
+- `LEARNING_PROGRESS.md`：当前阶段、验收项与下一步
+- `learning-log/`：每日与阶段学习复盘
 
-## 每日复盘
+## 学习复盘
 
 - [2026-07-08 学习复盘](learning-log/2026-07-08.md)
+- [2026-07-08 至 2026-07-12 阶段复盘](learning-log/2026-07-12.md)
 
+## 下一步
+
+先做一次小规模 Python 能力盘点，再确定项目零的题目、功能边界和仓库结构，用真实代码提交进入执行阶段。
